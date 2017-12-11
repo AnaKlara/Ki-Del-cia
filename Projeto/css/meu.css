@@ -1,0 +1,300 @@
+.header{
+	vertical-align: middle;
+	align-items: center;
+}
+
+.menu{
+	background-color: #800000;
+	margin:  0%;
+}
+.navbar{
+	border: 0px;
+	border-radius: 0px;
+}
+.navbar-default .navbar-brand {
+	color: white;
+}
+.navbar-default .navbar-nav li a{
+	color: white;
+}
+
+.brand{
+	width: 60px;
+}
+
+video{
+	position: relative;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 100%;
+	height: auto;
+	align-items: center;
+}
+
+.chamada{
+	position: absolute;
+	top: 8%;
+	
+}
+
+.chamada img{
+	width: 50%;
+	
+} 
+.chef{
+	position: relative;
+	top: 0;
+}
+
+.chef-texto {
+	position: absolute;
+	top: 30%;
+	margin-left: 30%;
+	margin-right: 30%;
+	width: 40%;
+	height: 30%;
+	border-radius: 20px;
+	padding:1.8%;
+	background-color: rgba(128, 0, 0, 0.8);
+	text-align: center;
+	color: white;
+	font-size: 250%;
+}
+
+.chef-texto p{
+	color: white;
+}
+
+
+.carnes{
+	position: relative;
+
+}
+.carnes-texto {
+	position: absolute;
+	top: 25%;
+	margin-left: 30%;
+	margin-right: 30%;
+}
+.carnes-texto img{
+	width: 650%;
+}
+
+.massas{
+	position: relative;
+
+}
+.massas-texto {
+	position: absolute;
+	top: 25%;
+	margin-left: 30%;
+	margin-right: 30%;
+}
+.masssas-texto img{
+	width: 650%;
+}
+
+.saladas{
+	position: relative;
+
+}
+.saladas-texto {
+	position: absolute;
+	top: 25%;
+	margin-left: 35%;
+	margin-right: 35%;
+}
+.saladas-texto img{
+	width: 700%;
+}
+
+.end{
+	position: relative;
+	top: 0;
+
+}
+
+.img-log{
+	position: relative;
+	z-index: -1;
+
+	width: auto;
+}
+
+.form{
+	position: absolute;
+	
+
+	margin-left: 30%;
+	margin-right: 30%;
+	top: 12%;
+	width: 40%;
+
+	background-color: rgba(128, 0, 0, 0.8);
+	color: white;
+	
+	border-radius: 20px;
+	padding: 1.5%;
+	
+}
+.row{
+	display: flex;
+}
+
+.Second-col{
+	height: auto;
+	flex-grow: 1;
+}
+.but{
+	position: absolute;
+	bottom: 0;
+	margin-left: 30%;
+	margin-right: 30%;
+}
+
+
+/*Página Perfil */
+.form-p{
+	position: relative;
+	padding: 1%;
+}
+.tol{
+	height: auto;
+	flex-grow: 1;
+	text-align: right; 
+	align-items: flex-end; 
+}
+.but-G{
+	margin-top: 5%;
+	color: rgb(128,0,0);
+}
+
+
+
+/*Catálogo*/
+.img-fundo{
+	
+	height: 100%;
+	}
+
+.tudo{
+	position: relative;
+	top: 0;
+	display: block;
+	width: 100%;
+	align-items: center;
+	align-content: center;
+}
+
+.bloco{
+	position: absolute;
+	top: 12%;
+	width: 80%;
+	background-color: rgba(98, 0, 0, 0.6);
+	color: white;
+	border-radius: 20px;
+	padding: 1.5%;
+
+	margin-left: 10%;
+	margin-right: 10%;
+	
+}
+h4{
+	display: inline;
+}
+
+.principal{
+	color: rgba(128, 0, 0, 1.0);
+	background-color: white;
+
+}
+tr:hover{
+	background-color: rgb(128, 12, 10); 
+	text-decoration: none;
+}
+
+a{
+color: white;	
+}
+a:hover{
+color: white;
+text-decoration: none;	
+}
+.pan{
+	
+	position: fixed;
+	bottom: 3%;
+	right: 3%;
+	width: 8%;
+	background-color: rgba(98, 0, 0, 0.6);
+	border-radius: 20px;
+}
+
+
+
+/*Página de Minhas Receitas*/
+.bloks{
+	position: absolute;
+	top: 12%;
+	width: 60%;
+	background-color: rgba(98, 0, 0, 0.6);
+	color: white;
+	
+	border-radius: 20px;
+	padding: 1.5%;
+
+	margin-left: 20%;
+	margin-right: 20%;
+	
+}
+.rend{
+	position: relative;
+	display: inline;
+
+}
+.ty{
+	position: relative;
+}
+.col h7{
+	font-size: 1.8rem;
+	margin-top: .5%;
+	margin-bottom: .3% ;
+	padding-top: .3% ;
+}
+.col button{
+	color: rgba(128, 0, 0);
+	background-color: white;
+	margin-top: 2.5%;
+	margin-bottom: 1% ;
+	border-color: black;
+}
+
+.cols{
+	position: relative;
+	width: 100%;
+	display: inline-flex;
+	justify-content: space-around;
+		
+
+}
+
+.col{
+	width: auto;
+	margin-right: 1%;
+	margin-left: 1%;
+}
+
+.titilis{
+	border-top-color: white;
+	border-bottom-color: white;
+	border-top: 2px;
+	border-bottom: 2px;
+	border-style: dotted;
+}
+
+/*Rceita*/
+
+.br-line{
+	display: inline
+}
