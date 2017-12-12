@@ -65,7 +65,12 @@ video{
 .chef-texto p{
 	color: white;
 }
-
+.prop{
+	/*Lobster*/
+}
+.opt{
+	color: rgba(128, 0, 0, 0.8); ;
+}
 
 .carnes{
 	position: relative;
@@ -170,8 +175,10 @@ video{
 	color: rgb(128,0,0);
 }
 
-
-
+/*Enviar*/
+opition{
+	color: rgb(128,0,0);
+}
 /*Catálogo*/
 .img-fundo{
 	
@@ -218,6 +225,10 @@ a{
 color: white;	
 }
 a:hover{
+color: white;
+text-decoration: none;	
+}
+a:visited{
 color: white;
 text-decoration: none;	
 }
@@ -293,8 +304,62 @@ text-decoration: none;
 	border-style: dotted;
 }
 
-/*Rceita*/
+/*Receita*/
 
 .br-line{
 	display: inline
+}
+
+.img-fundo{
+	
+	height: 100%;
+	}
+
+.tudo{
+	position: relative;
+	top: 0;
+	display: block;
+	width: 100%;
+	align-items: center;
+	align-content: center;
+}
+
+.bloco-R{
+	position: absolute;
+	top: 5%;
+	width: 80%;
+	background-color: ;
+	color: white;
+	border-radius: 20px;
+	padding: 1.5%;
+
+	margin-left: 10%;
+	margin-right: 10%;
+	
+}
+.img-adorno-border{
+	width: 70%;
+	height: 10%;
+}
+.img-adorno{
+	width: 30%;
+	height: 10%;
+}
+h4{
+	display: inline;
+}
+.meu-h3{
+	margin-top: 0px;
+	margin-bottom: 2%;
+}
+.evidente{
+	color: rgb(204, 153, 51);
+}
+
+.simul{
+	margin-right: 1%;
+	margin-left: 1%;
+}
+.m{
+	margin-top: 3%;
 }
